@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel ="stylesheet" href="palyer.css">
+    <script src="https://kit.fontawesome.com/50a7894541.js" crossorigin="anonymous"></script>
+    
+</head>
+
+
+<body>
+    <div class="container">
+        <div class="music-player">
+    
+            <img src="Media/thumbnail.png" class="song-img">
+    
+            <div class="slider-bar">    
+                <span>00:00</span>  
+                <input class="seek-volume" type="range" min="1" max="100" value="0">
+                <span>00:00</span>
+            </div>
+    
+            <div class="slider-volume">
+                <i class="fa fa-volume-down"></i>
+                <input class ="seekbar" type="range" min="0" max="100" value="100" step="1">
+                <i class="fa fa-volume-up"></i>
+            </div>
+    
+            <div class="controls">
+                <i class="fa-solid fa-play"></i>
+            </div>
+    
+            <audio class = "song">
+                <source src="music1.mp3" type="audio/mpeg">
+            </audio>
+    
+        </div>
+    </div> 
+
+    
+<div class="container">
+    <div class="music-player">
+
+        <img src="Media/thumbnail.png" class="song-img">
+
+        <div class="slider-bar">    
+            <span>00:00</span>  
+            <input class="seek-volume" type="range" min="1" max="100" value="0">
+            <span>00:00</span>
+        </div>
+
+        <div class="slider-volume">
+            <i class="fa fa-volume-down"></i>
+            <input class ="seekbar" type="range" min="0" max="100" value="100" step="1">
+            <i class="fa fa-volume-up"></i>
+        </div>
+
+        <div class="controls">
+            <i class="fa-solid fa-play"></i>
+        </div>
+
+        <audio class = "song">
+            <source src="music2.mp3" type="audio/mpeg">
+        </audio>
+
+    </div>
+</div> 
+
+<script src = "player.js"></script>
+
+</body>
+</html>
